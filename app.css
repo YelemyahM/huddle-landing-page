@@ -1,0 +1,348 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #00252e;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0px 1px 5px grey;
+}
+
+.btn-free-trial {
+  width: 200px;
+  height: 40px;
+  background: hsl(322, 100%, 66%);
+  color: #fff;
+  border-radius: 30px;
+  font-weight: 700;
+  margin: 0 auto 100px auto;
+}
+
+.btn-free-trial:hover {
+  transition: 0.3s;
+  background: hsl(321, 100%, 78%);
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  width: 88%;
+  margin: 25px auto 0 auto;
+}
+
+.logo {
+  width: 153.85px;
+  height: 25px;
+}
+
+.free-trial {
+  width: 80px;
+  height: 25px;
+  color: hsl(321, 100%, 78%);
+  border: 1px solid hsl(321, 100%, 78%);
+  border-radius: 30px;
+  padding: 0 10px;
+  box-shadow: none;
+}
+
+.free-trial:hover {
+  transition: 0.3s;
+  color: #fff;
+  background: hsl(321, 100%, 78%);
+  cursor: pointer;
+}
+
+.presentation {
+  width: 100%;
+  margin: 100px auto 0 auto;
+  background: url(images/bg-section-top-mobile-1.svg) bottom / contain no-repeat;
+}
+
+.presentation h1 {
+  width: 72%;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 30px;
+}
+
+.presentation .text-presentaiton {
+  width: 290px;
+  text-align: center;
+  margin: 0 auto 50px auto;
+  line-height: 1.5rem;
+}
+
+.presentation-img {
+  display: block;
+  width: 80%;
+  margin: 100px auto 120px auto;
+}
+
+.presentation .stats {
+  width: 160px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-communities {
+  margin-bottom: 100px;
+}
+
+.stat-message {
+  margin-bottom: 120px;
+}
+
+.stat-message p {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 25px;
+  margin-right: auto;
+  width: 90px;
+}
+
+.stat-communities .stat-icon {
+  width: 30px;
+  height: 26.17px;
+}
+
+.stat-message .stat-icon {
+  width: 30px;
+  height: 25px;
+}
+
+.count {
+  display: block;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.description {
+  color: #828687;
+}
+
+.section-grow-together {
+  background: #f6fbff;
+  padding: 70px 0 50px 0;
+}
+
+.section-grow-together img {
+  display: block;
+  width: 69%;
+  margin: 0 auto;
+}
+
+.section-grow-together h2 {
+  width: 160px;
+  margin: 80px auto 25px auto;
+}
+
+.section-grow-together p {
+  width: 280px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 13px;
+}
+
+.section-flowing-conversations {
+  background: url(images/bg-section-bottom-mobile-1.svg) top / contain no-repeat,
+    url(images/bg-section-top-mobile-2.svg) bottom / contain no-repeat;
+  padding-top: 195px;
+}
+
+.section-flowing-conversations img {
+  display: block;
+  width: 69%;
+  margin: 0 auto;
+}
+
+.section-flowing-conversations h2 {
+  margin: 95px auto 25px auto;
+  width: 250px;
+}
+
+.section-flowing-conversations p {
+  padding-bottom: 235px;
+  width: 270px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 13px;
+}
+
+.section-your-users {
+  background: #f6fbff;
+  padding: 20px 0 0 0;
+}
+
+.section-your-users img {
+  display: block;
+  width: 69%;
+  margin: 0 auto;
+}
+
+.section-your-users h2 {
+  margin: 85px auto 25px auto;
+  width: 120px;
+}
+
+.section-your-users p {
+  padding-bottom: 125px;
+  width: 270px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 13px;
+}
+
+.section-last {
+  padding-top: 160px;
+  padding-bottom: 200px;
+  background: url(images/bg-section-bottom-mobile-2.svg) top / contain no-repeat,
+    url(images/bg-footer-top-mobile.svg) bottom / contain no-repeat;
+}
+
+.section-last h2 {
+  font-size: 1.6rem;
+  width: 250px;
+  margin: 0 auto 45px auto;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column-reverse;
+  background: hsl(192, 100%, 9%);
+  color: hsl(207, 100%, 98%);
+  padding-top: 60px;
+  margin-top: -1px;
+  padding-left: 6%;
+  padding-bottom: 50px;
+}
+
+.footer img {
+  color: #fff;
+}
+
+.newsletter {
+  margin-bottom: 100px;
+}
+
+.newsletter h2 {
+  text-transform: uppercase;
+}
+
+.newsletter P {
+  width: 300px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 90%;
+}
+
+input[type="submit"],
+input[type="email"] {
+  height: 40px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+input[type="email"] {
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  width: 50%;
+  background: hsl(322, 100%, 66%);
+  font-weight: 700;
+  color: hsl(207, 100%, 98%);
+  align-self: end;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  transition: 0.3s;
+  background: hsl(321, 100%, 78%);
+}
+
+.infos {
+  width: 90%;
+}
+
+.infos P {
+  width: 100%;
+}
+
+.mail-icon svg,
+.phone-icon svg {
+  margin-right: 15px;
+}
+
+.phone-icon {
+  margin-top: 50px;
+}
+
+.mail-icon {
+  margin-bottom: 50px;
+}
+
+.ig-icon img {
+  margin-bottom: -2px;
+}
+
+.fbIcon:hover,
+.twi-icon:hover,
+.ig-icon:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 735px) {
+  .section-grow-together {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .section-grow-together img {
+    width: 48%;
+    height: auto;
+  }
+
+  .section-grow-together .section-text {
+    width: 34%;
+    align-self: center;
+    margin: 0;
+  }
+
+  .section-grow-together h2 {
+  }
+
+  .section-grow-together .section-text,
+  .section-grow-together p {
+    text-align: left;
+  }
+
+  .presentation .stats {
+    flex-direction: row;
+  }
+}
