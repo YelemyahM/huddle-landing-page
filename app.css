@@ -261,6 +261,10 @@ h1 {
   width: 90%;
 }
 
+.newsletter form label {
+  display: none;
+}
+
 input[type="submit"],
 input[type="email"] {
   height: 40px;
