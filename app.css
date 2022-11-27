@@ -215,7 +215,7 @@ h1 {
 
 .section-last {
   padding-top: 160px;
-  padding-bottom: 200px;
+  padding-bottom: 160px;
   background: url(images/bg-section-bottom-mobile-2.svg) top / contain no-repeat,
     url(images/bg-footer-top-mobile.svg) bottom / contain no-repeat;
 }
@@ -317,15 +317,35 @@ input[type="submit"]:hover {
   cursor: pointer;
 }
 
-@media screen and (min-width: 735px) {
+@media screen and (min-width: 600px) {
+  .presentation {
+    background: url(images/bg-section-top-desktop-1.svg) bottom / contain
+      no-repeat;
+  }
+
+  .presentation .text-presentaiton {
+    width: 400px;
+  }
+
+  .presentation .stats {
+    width: 62%;
+    flex-direction: unset;
+    justify-content: space-between;
+  }
+
   .section-grow-together {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-evenly;
   }
 
   .section-grow-together img {
-    width: 48%;
-    height: auto;
+    margin: 0;
+    width: 36%;
+  }
+
+  .section-grow-together h2 {
+    margin: 0 0 20px 0;
   }
 
   .section-grow-together .section-text {
@@ -334,15 +354,130 @@ input[type="submit"]:hover {
     margin: 0;
   }
 
-  .section-grow-together h2 {
-  }
-
-  .section-grow-together .section-text,
-  .section-grow-together p {
+  .section-grow-together .section-text p {
+    margin: 0;
+    width: 100%;
     text-align: left;
+    font-size: 12px;
   }
 
-  .presentation .stats {
+  .section-flowing-conversations {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 190px;
+    background: url(images/bg-section-bottom-desktop-1.svg) top / contain
+        no-repeat,
+      url(images/bg-section-top-desktop-1.svg) bottom / contain no-repeat;
+  }
+
+  .section-flowing-conversations h2 {
+    text-align: left;
+    margin: 0 0 20px 0;
+  }
+
+  .section-flowing-conversations img {
+    width: 36%;
+    height: 26%;
+    margin: 0;
+  }
+
+  .section-flowing-conversations .section-text {
+    width: 36%;
+    align-self: center;
+  }
+
+  .section-flowing-conversations .section-text p {
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+  }
+
+  .section-your-users {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+  }
+
+  .section-your-users h2 {
+    text-align: left;
+    margin: 0 0 20px 0;
+  }
+
+  .section-your-users .section-text {
+    width: 36%;
+    align-self: center;
+  }
+
+  .section-your-users img {
+    width: 36%;
+    height: 26%;
+    margin: 0;
+  }
+
+  .section-your-users .section-text p {
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+  }
+
+  .section-last {
+    background: url(images/bg-section-bottom-desktop-2.svg) top / contain
+        no-repeat,
+      url(images/bg-footer-top-desktop.svg) bottom / contain no-repeat;
+  }
+
+  .footer {
     flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 8%;
+  }
+
+  .footer .infos {
+    width: 35%;
+  }
+
+  .newsletter {
+    width: 36%;
+  }
+
+  .newsletter h2 {
+    margin: 0;
+  }
+
+  .newsletter {
+    width: auto;
+  }
+
+  .newsletter form {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .newsletter form input {
+    margin: 0;
+  }
+
+  .newsletter form [type="email"] {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .newsletter form {
+    flex-direction: row;
+  }
+
+  .newsletter form input[type="email"] {
+    width: 65%;
+    margin: 0;
+  }
+
+  input[type="submit"] {
+    width: 30%;
   }
 }
